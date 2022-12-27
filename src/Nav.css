@@ -1,0 +1,40 @@
+.navbar{
+    left: 0;
+    top: 0;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 1;
+ background-color: #111;
+
+    
+}
+
+.logo{
+    object-fit: contain;
+    height: 2rem;
+   
+    
+    
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.profile{
+ margin-top: 5px;
+   padding: 5px;
+   object-fit: contain;
+   max-height: 45px;
+   transition: all 0.2s;
+ 
+}
+.profile:hover{
+   transform: scale(1.08);
+   cursor:pointer;
+   
+}

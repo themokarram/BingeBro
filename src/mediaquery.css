@@ -1,0 +1,106 @@
+@media screen and (max-width:500px)
+{
+    .banner{
+        height: 300px;
+        
+    }
+    .title{
+        font-size: 2rem;
+        color:whitesmoke
+     }
+     .banner_contents{
+        justify-content: flex-end;
+        margin-top: 80px;
+        margin-left: 0;
+        
+     }
+     .description{
+        width: 20rem;
+     }
+     .banner_button{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.3rem;
+        padding-bottom: .3rem;
+     }
+     .fadeaway{
+        height: 5.4rem;
+        z-index: 2;
+        position: absolute;
+       
+    }
+    .row{
+        margin-left: 0px;
+    }
+    .row_posters{
+        padding: 10px;
+    }
+    .row_posterLarge{
+        min-height: 200px;
+        width: 100%;
+       
+    }
+    .row_poster{
+       
+        max-height: 80px;
+     
+        }
+    .navbar{
+        height: 3rem;
+    }
+    .logo{
+        height: 1.8rem;
+    }
+    
+
+    .profile{
+       
+       letter-spacing: 0;
+       padding: 5px;
+       padding-left: 0px;
+       padding-right: 0px;
+    
+    }
+    .pf-body{
+        width: 80%;
+        
+    }
+    .pf-body>h1{
+        font-size: 30px;
+    }
+    .loginbody{
+        
+        top: 15%;
+        padding: 1rem;
+      
+    }
+   
+    .loginbody >h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .loginbody >h3{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .loginInput >form{
+        display: flex;
+        flex-direction: column;
+    }
+    .loginInput >form >input{
+       
+        width: 91%;
+        margin-bottom: 20px;
+       
+        
+    }
+    .signupscreen{
+        padding: 10px;
+         max-width: 100%;
+        
+        
+    }  
+     
+    
+   
+}
